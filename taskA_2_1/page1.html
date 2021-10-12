@@ -1,0 +1,42 @@
+<html> 
+    <head> 
+          
+       
+        
+    </head> 
+  
+    <body> 
+            <script >
+      const queryString = window.location.search;
+console.log(queryString);
+var urlParams = new URLSearchParams(queryString);
+var Name = urlParams.get('Name')
+var gender = urlParams.get('gender')
+
+var Address = urlParams.get('Address')
+var your_job = urlParams.get('your_job')
+var email = urlParams.get('EMail')
+
+
+      
+                
+
+                document.write("Hello"+" "+Name+ "<br>");
+                document.write("your gender is "+" "+gender+"<br>");
+                document.write("you are a/an "+" "+your_job+"<br>");
+
+                document.write("your address is "+" "+Address+"<br>");
+                document.write("your email is "+" "+email+"<br>");
+
+
+                
+
+                
+                
+                
+        
+        
+        </script> 
+
+    </body> 
+</html> 
